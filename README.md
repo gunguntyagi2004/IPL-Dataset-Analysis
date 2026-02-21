@@ -1,9 +1,9 @@
 # IPL Data Analysis Project
 📌 Project Overview
 
-This project focuses on analyzing the Indian Premier League (IPL) dataset to extract meaningful insights using data analytics tools. The analysis includes team performance, player statistics, match trends, and season-wise comparisons.
+    This project focuses on analyzing the Indian Premier League (IPL) dataset to extract meaningful insights using data analytics      tools. The analysis includes team performance, player statistics, match trends, and season-wise comparisons.
 
-The goal of this project is to demonstrate data cleaning, transformation, visualization, and analytical skills using tools like Excel  / SQL / Python.
+    The goal of this project is to demonstrate data cleaning, transformation, visualization, and analytical skills using tools like Excel  / SQL / Python.
 
 # 🎯 Objectives
 
@@ -52,87 +52,54 @@ The goal of this project is to demonstrate data cleaning, transformation, visual
     Win percentage calculation
     Home vs Away performance comparison
 
-2️⃣ Batsman Analysis
+## 2️⃣ Batsman Analysis
 
-Top run scorers
+    Top run scorers
+    Highest strike rate
+    Most sixes and fours
 
-Highest strike rate
+# 3️⃣ Bowler Analysis
+     Most wickets
+     Best economy rate
+     Best bowling figures
 
-Most sixes and fours
+#  4️⃣ Toss Impact Analysis
+    Does winning the toss increase chances of winning the match?
 
-3️⃣ Bowler Analysis
+# 5️⃣ Venue Analysis
+    Highest scoring venue
+    Most matches played at a venue
 
-Most wickets
+#   📈 Dashboard Features
+     Season filter
+     Team filter
+     Interactive visuals
+     KPI cards (Total Runs, Total Matches, Total Teams)
+     Bar Charts, Pie Charts, Line Charts
 
-Best economy rate
 
-Best bowling figures
-
-4️⃣ Toss Impact Analysis
-
-Does winning the toss increase chances of winning the match?
-
-5️⃣ Venue Analysis
-
-Highest scoring venue
-
-Most matches played at a venue
-
-📈 Dashboard Features
-
-Season filter
-
-Team filter
-
-Interactive visuals
-
-KPI cards (Total Runs, Total Matches, Total Teams)
-
-Bar Charts, Pie Charts, Line Charts
-
-🔍 Sample SQL Queries Used
--- Top 5 Run Scorers
-SELECT batsman, SUM(total_runs) AS total_runs
-FROM deliveries
-GROUP BY batsman
-ORDER BY total_runs DESC
-LIMIT 5;
--- Team Win Count
-SELECT winner, COUNT(*) AS wins
-FROM matches
-GROUP BY winner
-ORDER BY wins DESC;
 📌 Key Insights
 
-Mumbai Indians and Chennai Super Kings are among the most successful teams.
+    Mumbai Indians and Chennai Super Kings are among the most successful teams.
+    Teams choosing to chase have slightly higher win percentages.
+    Certain venues favor high-scoring matches.
 
-Teams choosing to chase have slightly higher win percentages.
+# 🚀 How to Run the Project
 
-Certain venues favor high-scoring matches.
+    Download the dataset
+    Import into Excel / Power BI / SQL
+    Clean and transform data
+    Create dashboard and perform analysis
 
-🚀 How to Run the Project
+# 📎 Project Outcome
+    This project improves skills in:
+     ✔ Data Cleaning
+     ✔ Data Modeling
+     ✔ SQL Query Writing
+    ✔ Data Visualization
+    ✔ Business Insight Generation
 
-Download the dataset
+# 👩‍💻 Author
 
-Import into Excel / Power BI / SQL
-
-Clean and transform data
-
-Build relationships (if using Power BI)
-
-Create dashboard and perform analysis
-
-📎 Project Outcome
-
-This project improves skills in:
-
-✔ Data Cleaning
-✔ Data Modeling
-✔ SQL Query Writing
-✔ Data Visualization
-✔ Business Insight Generation
-
-👩‍💻 Author
-
-Your Name
-Data Analyst | Power BI | SQL | Excel
+    Gungun Tyagi
+     Data Analyst | Power BI | SQL | Excel | python
