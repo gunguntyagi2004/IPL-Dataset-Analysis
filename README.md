@@ -1,86 +1,86 @@
-🏏 IPL Data Analysis & Dashboard Project
-📌 Project Overview
+#🏏 IPL Data Analysis & Dashboard Project
+## 📌 Project Overview
 
-This project focuses on comprehensive analysis of Indian Premier League (IPL) data using Python (Pandas), Advanced SQL, and Excel Dashboarding.
-The objective was to extract meaningful insights about teams, players, matches, and performance trends and present them in a visually interactive format.
+     This project focuses on comprehensive analysis of Indian Premier League (IPL) data using Python (Pandas), Advanced SQL, and Excel Dashboarding.
+    The objective was to extract meaningful insights about teams, players, matches, and performance trends and present them in a visually interactive format.
 
-🎯 Project Objectives
+#  🎯 Project Objectives
 
-Analyze match-level and player-level IPL data
+    Analyze match-level and player-level IPL data
 
-Identify top-performing teams and players
+    Identify top-performing teams and players
 
-Perform season-wise and venue-wise trend analysis
+    Perform season-wise and venue-wise trend analysis
 
-Extract insights using Advanced SQL queries
+      Extract insights using Advanced SQL queries
 
-Create an interactive Excel dashboard for visualization
+      Create an interactive Excel dashboard for visualization
 
-🛠️ Tools & Technologies Used
+# 🛠️ Tools & Technologies Used
 
-🐍 Python (Pandas, Matplotlib, Seaborn)
+      🐍 Python (Pandas, Matplotlib, Seaborn)
 
-🗄️ Advanced SQL (Joins, Subqueries, Group By, Window Functions)
+      🗄️ Advanced SQL (Joins, Subqueries, Group By, Window Functions)
 
-📊 Microsoft Excel (Pivot Tables, Charts, Slicers, Dashboard Design)
+     📊 Microsoft Excel (Pivot Tables, Charts, Slicers, Dashboard Design)
 
-📂 Data Processing & Cleaning (Python - Pandas)
+# 📂 Data Processing & Cleaning (Python - Pandas)
 
-Handled missing values and inconsistent records
+      Handled missing values and inconsistent records
 
-Converted date columns to proper datetime format
+       Converted date columns to proper datetime format
 
-Created derived columns (season, strike rate, run rate, etc.)
+     Created derived columns (season, strike rate, run rate, etc.)
 
-Performed grouping and aggregation for team & player analysis
+       Performed grouping and aggregation for team & player analysis
 
-Generated EDA visualizations for better understanding
+       Generated EDA visualizations for better understanding
 
-🗄️ Advanced SQL Analysis
+# 🗄️ Advanced SQL Analysis
 
-Total matches won by each team
+       Total matches won by each team
 
-Top run scorers and highest wicket takers
+       Top run scorers and highest wicket takers
 
-Venue-wise match statistics
+      Venue-wise match statistics
 
-Season-wise performance comparison
+     Season-wise performance comparison
 
-Strike rate and economy rate analysis
+    Strike rate and economy rate analysis
 
-Used JOINs to combine multiple tables
+    Used JOINs to combine multiple tables
+  
+    Applied Window Functions for ranking players
 
-Applied Window Functions for ranking players
+# 📊 Excel Dashboard Features
 
-📊 Excel Dashboard Features
+    KPI Cards (Total Matches, Total Runs, Total Wickets)
 
-KPI Cards (Total Matches, Total Runs, Total Wickets)
+    Team-wise performance analysis
 
-Team-wise performance analysis
+     Season filter using slicers
 
-Season filter using slicers
+    Top 10 Batsmen & Bowlers charts
 
-Top 10 Batsmen & Bowlers charts
+    Venue-based performance comparison
 
-Venue-based performance comparison
+     Interactive Pivot Charts
 
-Interactive Pivot Charts
+#  📈 Key Insights
 
-📈 Key Insights
+    Identified most successful IPL team across seasons
 
-Identified most successful IPL team across seasons
+    Found consistent top-performing batsmen and bowlers
 
-Found consistent top-performing batsmen and bowlers
+    Analyzed impact of venue on match outcomes
 
-Analyzed impact of venue on match outcomes
+    Observed scoring trends over different IPL seasons
 
-Observed scoring trends over different IPL seasons
+#  🚀 Project Outcome
 
-🚀 Project Outcome
+    This project demonstrates:
 
-This project demonstrates:
-
-✔ Strong Data Cleaning & EDA skills
-✔ Advanced SQL analytical capability
-✔ Dashboard building expertise in Excel
-✔ End-to-end data analysis workflow
+     ✔ Strong Data Cleaning & EDA skills
+     ✔ Advanced SQL analytical capability
+    ✔ Dashboard building expertise in Excel
+    ✔ End-to-end data analysis workflow
