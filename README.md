@@ -1,105 +1,86 @@
-# IPL Data Analysis Project
+🏏 IPL Data Analysis & Dashboard Project
 📌 Project Overview
 
-    This project focuses on analyzing the Indian Premier League (IPL) dataset to extract meaningful insights using data analytics      tools. The analysis includes team performance, player statistics, match trends, and season-wise comparisons.
+This project focuses on comprehensive analysis of Indian Premier League (IPL) data using Python (Pandas), Advanced SQL, and Excel Dashboarding.
+The objective was to extract meaningful insights about teams, players, matches, and performance trends and present them in a visually interactive format.
 
-    The goal of this project is to demonstrate data cleaning, transformation, visualization, and analytical skills using tools like Excel  / SQL / Python.
+🎯 Project Objectives
 
-# 🎯 Objectives
+Analyze match-level and player-level IPL data
 
-    Analyze team performance across seasons
+Identify top-performing teams and players
 
-    Identify top-performing players (batsmen & bowlers)
+Perform season-wise and venue-wise trend analysis
 
-     Compare venue-wise match results
+Extract insights using Advanced SQL queries
 
-     Analyze toss impact on match results
+Create an interactive Excel dashboard for visualization
 
-     Find season-wise trends in total runs and matches
+🛠️ Tools & Technologies Used
 
-     Create interactive dashboard for better visualization
+🐍 Python (Pandas, Matplotlib, Seaborn)
 
-## 📂 Dataset Information
+🗄️ Advanced SQL (Joins, Subqueries, Group By, Window Functions)
 
-    The dataset contains the following tables/files:
-    Matches Data
-    Match ID
-    Season
-    Date
-    Team1
-    Team2
-    Toss Winner
-    Toss Decision
-    Winner
-    Venue
-    Deliveries Data
-    Match ID
-    Batsman
-    Bowler
-    Runs
-    Extras
+📊 Microsoft Excel (Pivot Tables, Charts, Slicers, Dashboard Design)
 
-# 🛠 Tools & Technologies Used
+📂 Data Processing & Cleaning (Python - Pandas)
 
-    Microsoft Excel (Pivot Tables, Charts, Dashboard)
-    SQL (Data Analysis Queries)
-    Python (Pandas)
+Handled missing values and inconsistent records
 
-# 📊 Key Analysis Performed
-## 1️⃣ Team Performance Analysis
+Converted date columns to proper datetime format
 
-    Most successful team in IPL history
-    Win percentage calculation
-    Home vs Away performance comparison
+Created derived columns (season, strike rate, run rate, etc.)
 
-## 2️⃣ Batsman Analysis
+Performed grouping and aggregation for team & player analysis
 
-    Top run scorers
-    Highest strike rate
-    Most sixes and fours
+Generated EDA visualizations for better understanding
 
-# 3️⃣ Bowler Analysis
-     Most wickets
-     Best economy rate
-     Best bowling figures
+🗄️ Advanced SQL Analysis
 
-#  4️⃣ Toss Impact Analysis
-    Does winning the toss increase chances of winning the match?
+Total matches won by each team
 
-# 5️⃣ Venue Analysis
-    Highest scoring venue
-    Most matches played at a venue
+Top run scorers and highest wicket takers
 
-#   📈 Dashboard Features
-     Season filter
-     Team filter
-     Interactive visuals
-     KPI cards (Total Runs, Total Matches, Total Teams)
-     Bar Charts, Pie Charts, Line Charts
+Venue-wise match statistics
 
+Season-wise performance comparison
 
-📌 Key Insights
+Strike rate and economy rate analysis
 
-    Mumbai Indians and Chennai Super Kings are among the most successful teams.
-    Teams choosing to chase have slightly higher win percentages.
-    Certain venues favor high-scoring matches.
+Used JOINs to combine multiple tables
 
-# 🚀 How to Run the Project
+Applied Window Functions for ranking players
 
-    Download the dataset
-    Import into Excel / Power BI / SQL
-    Clean and transform data
-    Create dashboard and perform analysis
+📊 Excel Dashboard Features
 
-# 📎 Project Outcome
-    This project improves skills in:
-     ✔ Data Cleaning
-     ✔ Data Modeling
-     ✔ SQL Query Writing
-    ✔ Data Visualization
-    ✔ Business Insight Generation
+KPI Cards (Total Matches, Total Runs, Total Wickets)
 
-# 👩‍💻 Author
+Team-wise performance analysis
 
-    Gungun Tyagi
-     Data Analyst | Power BI | SQL | Excel | python
+Season filter using slicers
+
+Top 10 Batsmen & Bowlers charts
+
+Venue-based performance comparison
+
+Interactive Pivot Charts
+
+📈 Key Insights
+
+Identified most successful IPL team across seasons
+
+Found consistent top-performing batsmen and bowlers
+
+Analyzed impact of venue on match outcomes
+
+Observed scoring trends over different IPL seasons
+
+🚀 Project Outcome
+
+This project demonstrates:
+
+✔ Strong Data Cleaning & EDA skills
+✔ Advanced SQL analytical capability
+✔ Dashboard building expertise in Excel
+✔ End-to-end data analysis workflow
